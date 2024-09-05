@@ -26,6 +26,9 @@ Console.ReadLine();
 
 Console.WriteLine($"{bad.Name} now has {bad.Hitpoints} health remaining");
 Console.WriteLine("Oops it seems he was immortal. You will have to find another way to end his life");
+Console.WriteLine("He has regained his health");
+bad.Hitpoints += 499;
+Console.WriteLine($"{bad.Name} now has {bad.Hitpoints} health remaining");
 Console.ReadLine();
 
 
